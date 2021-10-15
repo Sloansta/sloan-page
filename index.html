@@ -10,10 +10,10 @@
 <body>
     <header>
         <nav class="nav-bar" role="navigation">
-            <a class="about-nav" href="#about-card">About Me</a>
-            <a class="hobby-nav" href="#hobby-card">My Hobbies</a>
-            <a class="skill-nav" href="#skill-card">My Skills</a>
-            <a class="contact-nav" href="#contact-card">Contact Me</a>
+            <a class="about-nav" href="#about">About Me</a>
+            <a class="hobby-nav" href="#hobby">My Hobbies</a>
+            <a class="skill-nav" href="#skill">My Skills</a>
+            <a class="contact-nav" href="#contact">Contact Me</a>
         </nav>
     </header>
 
@@ -29,7 +29,7 @@
     </div>
 
     <div class="main-content">
-        <div class="about-card card">
+        <div class="about-card card" id="about">
             <h1 class="card-title">About Me</h1>
                 <div class="card-content">
                     <p>
@@ -56,7 +56,7 @@
                     </p>
                 </div>
         </div>
-        <div class="hobby-card card">
+        <div class="hobby-card card" id="hobby">
             <h1 class="card-title">My Hobbies</h1>
             <div class="card-content">
                 <p>
@@ -80,22 +80,81 @@
                 </p>
             </div>
         </div>
-        <div class="skill-card card">
+        <div class="skill-card card" id="skill">
             <h1 class="card-title">What I Can Do</h1>
             <div class="card-content">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident iste repellat ex facere 
-                    officiis maxime dignissimos suscipit impedit? Laborum reiciendis maxime fugiat eligendi, omnis veniam minima error sit ipsum!
+                    Since I was 16 years old I dabbled in a lot of different programming languages.
+                    Below are languages I built tools for myself in, or used for personal projects 
+                    as well as in the bootcamp.
+                </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            HTML/CSS/JavaScript
+                        </li>
+                        <li>
+                            NodeJS
+                        </li>
+                        <li>
+                            VueJS
+                        </li>
+                        <li>
+                            ThreeJS
+                        </li>
+                        <li>
+                            Python
+                        </li>
+                        <li>
+                            C#
+                        </li>
+                        <li>
+                            Java
+                        </li>
+                        <li>
+                            Go
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    Those are all of the technologies that I have used for personal projects. 
+                    I will be adding to the list as the boot camp goes on and I use/learn other technologies.
+                    While I have used and created things in all of these technologies,
+                    I would say that I am by far the most comfortable with JavaScript, Go and C#
+                    However as the bootcamp goes on, that is subject to change. 
                 </p>
             </div>
         </div>
-        <div class="contact-card card">
+        <div class="contact-card card" id="contact">
             <h1 class="card-title">Reach Out</h1>
             <div class="card-content">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident iste repellat ex facere 
-                    officiis maxime dignissimos suscipit impedit? Laborum reiciendis maxime fugiat eligendi, omnis veniam minima error sit ipsum!
+                    Want to contact me?
+                    Send me an email or check out my Instagram.
+                    If you want to see my work check out the project section (under construction)
+                    or head on over to my github.
                 </p>
+                <div class="contact-links">
+                    <ul>
+                        <li style="display:inline-block">
+                            <a href="https://www.github.com/sloansta">
+                                <img src="./assets/css/img/github-logo.png" width="100px" height="100px" alt="">
+                            </a>
+                        </li>
+                        <li style="display:inline-block">
+                            <a href="https://www.instagram.com/slo_nn">
+                                <img src="./assets/css/img/instagram-logo.png" width="120px" height="100px" alt="">
+                            </a>
+                        </li>
+                        <li style="display:inline-block;">
+                            <a href="mailto:sloanboyce@gmail.com">
+                                <img src="./assets/css/img/email-logo.png" width="100px" height="100px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
