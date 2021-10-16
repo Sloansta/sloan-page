@@ -237,7 +237,7 @@ body {
     }
 
     .card {
-        width: 80%;
+        width: 90%;
     }
 
     .card h1 {
@@ -257,6 +257,10 @@ body {
         justify-content: center;
     }
 
+    .hero {
+        width: 100%;
+    }
+
     .intro p {
         width: 100%;
     }
@@ -266,8 +270,10 @@ body {
     }
 
     .card {
-        width: 100%;
+        flex: 0 100%;
+        padding: 0;
+        margin-bottom: 15px;
         font-size: 15px;
+        width: 100%;
     }
-
 }
