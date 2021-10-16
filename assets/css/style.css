@@ -204,3 +204,70 @@ body {
 .contact-card img {
     display: inline-block;
 }
+
+
+@media  screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav a {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .card {
+        width: 80%;
+        flex: 0 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div {
+        padding: 30px 15px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card h1 {
+        flex: 1 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header {
+        width: 100%;
+    }
+
+    .header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intro p {
+        width: 100%;
+    }
+
+    .card h1  {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+        font-size: 15px;
+    }
+
+}
