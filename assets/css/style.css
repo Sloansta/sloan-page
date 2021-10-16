@@ -227,7 +227,14 @@ body {
 
     .card {
         width: 80%;
-        flex: 0 70%;
+        flex: 0 90%;
+        margin: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .card img {
+        margin: 0;
     }
 }
 
@@ -236,9 +243,9 @@ body {
         padding: 30px 15px;
     }
 
-    .card {
+    /*.card {
         width: 90%;
-    }
+    }*/
 
     .card h1 {
         flex: 1 100%;
@@ -269,11 +276,22 @@ body {
         font-size: 20px;
     }
 
-    .card {
+    /*.card {
+        display: flex;
+        flex-wrap: wrap;
         flex: 0 100%;
         padding: 0;
         margin-bottom: 15px;
         font-size: 15px;
         width: 100%;
+        text-align: center;
+        align-items: center;
     }
+
+    .card img {
+        padding: 0;
+        margin: 0;
+        max-height: 250px;
+        max-width: 200px;
+    }*/
 }
