@@ -186,7 +186,7 @@ body {
 }
 
 .hobby-card ul {
-    padding-left: 50px;
+    padding-left: 15px;
 }
 
 .skill-card h1 {
@@ -194,7 +194,7 @@ body {
 }
 
 .skill-card ul {
-    padding-left: 50px;
+    padding-left: 15px;
 }
 
 .contact-card h1 {
@@ -208,9 +208,7 @@ body {
 
 @media  screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
+       display: none;
     }
 
     header h1 {
@@ -225,12 +223,19 @@ body {
         font-size: 20px;
     }
 
+
     .card {
-        width: 80%;
-        flex: 0 90%;
+        display: inline-block;
+        width: 95%;
+        flex: 0 100%;
         margin: 15px;
-        padding: 0;
+        padding: 15px;
         border-radius: 0;
+        font-size: 15px;
+    }
+
+    .card h1 {
+        font-size: 20px;
     }
 
     .card img {
